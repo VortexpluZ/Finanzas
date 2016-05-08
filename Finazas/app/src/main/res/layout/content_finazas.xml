@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:id="@+id/finzas_layout"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_gravity="fill"
+        android:textSize="25dp"
+        android:id="@+id/conteo"
+        android:background="@drawable/rectangle"
+        android:layout_columnSpan="4"
+        android:gravity="end" />
+
+
+    <Button android:text="1" android:id="@+id/uno"/>
+
+    <Button android:text="2" android:id="@+id/dos"/>
+
+    <Button android:text="3" android:id="@+id/tres"/>
+
+    <Button android:text="-"
+        android:layout_gravity="fill"
+        android:layout_rowSpan="2" android:id="@+id/menos"/>
+
+    <Button android:text="4" android:id="@+id/cuatro"/>
+
+    <Button android:text="5" android:id="@+id/cinco"/>
+
+    <Button android:text="6" android:id="@+id/seis"/>
+
+    <Button android:text="7" android:id="@+id/siete"/>
+
+    <Button android:text="8" android:id="@+id/ocho"/>
+
+    <Button android:text="9" android:id="@+id/nueve"/>
+
+    <Button
+        android:layout_gravity="fill"
+        android:layout_rowSpan="3"
+        android:text="+" android:id="@+id/mas"/>
+
+    <Button
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="0" android:id="@+id/cero"/>
+
+    <Button android:text="00" android:id="@+id/doble_cero"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_gravity="fill"
+        android:textSize="20dp"
+        android:id="@+id/ubicacion"
+        android:background="@drawable/rectangle"
+        android:layout_columnSpan="4"
+        android:gravity="end" />
+
+    <Button
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:text="Ubicacion" android:id="@+id/get_ubicacion"/>
+
+
+
+</GridLayout>
